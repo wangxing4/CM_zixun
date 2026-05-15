@@ -1,0 +1,63 @@
+# 注册最终步（/tenantadmin/user/login loginType=2）参数化用例
+# 注意：后端已将短信验证码固定为 123456
+
+#- name: 正常注册新用户
+#  random_mobile: true          # 运行时自动生成随机手机号注入 loginName
+#  body:
+#    sysId: CB2Q3EWLFCQ92V9B
+#    reqData:
+#      loginName: ""
+#      password: ""
+#      loginType: 2
+#      code: "123456"
+#      activityId:
+#      activityType:
+#      bindSourceAssociationId:
+#      bindSourceType:
+#      recommendId:
+#      registerPage: "5"
+#      relationId:
+#      relationType:
+#    appWebFlag: "5"
+#  expect:
+#    code: 200
+#    has_token: true
+
+- name: 手机号为空
+  body:
+    sysId: CB2Q3EWLFCQ92V9B
+    reqData:
+      loginName: ""
+      password: ""
+      loginType: 2
+      code: "123456"
+      registerPage: "5"
+    appWebFlag: "5"
+  expect:
+    code: 100105
+
+- name: 手机号格式错误
+  body:
+    sysId: CB2Q3EWLFCQ92V9B
+    reqData:
+      loginName: "1234"
+      password: ""
+      loginType: 2
+      code: "123456"
+      registerPage: "5"
+    appWebFlag: "5"
+  expect:
+    code: 100105
+
+- name: 验证码为空
+  body:
+    sysId: CB2Q3EWLFCQ92V9B
+    reqData:
+      loginName: "13800001111"
+      password: ""
+      loginType: 2
+      code: ""
+      registerPage: "5"
+    appWebFlag: "5"
+  expect:
+    code: 100105

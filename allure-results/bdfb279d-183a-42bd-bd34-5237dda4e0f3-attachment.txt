@@ -1,0 +1,12 @@
+[32mINFO    [0m api_test:http_client.py:34 [LOGIN] url=https://test.caimuwang.com/api/tenantadmin/user/login
+[32mINFO    [0m api_test:http_client.py:35 [LOGIN] payload={'sysId': 'CB2Q3EWLFCQ92V9B', 'reqData': {'loginName': '18168313566', 'password': '123456', 'loginType': 1}, 'appWebFlag': '5'}
+[32mINFO    [0m api_test:http_client.py:46 [LOGIN] status_code=200
+[32mINFO    [0m api_test:http_client.py:47 [LOGIN] response={'code': 200, 'msg': '操作成功', 'data': {'loginName': '18168313566', 'mobile': '18168313566', 'tenantCode': '', 'tenantDbCode': None, 'userId': 4341, 'userHost': '58.214.37.42', 'deviceId': None, 'deptId': '', 'deptName': None, 'roleId': None, 'roleName': None, 'leader': None, 'userName': '运营账号3566', 'nickName': None, 'userType': None, 'userStatus': '1', 'mobileStatus': 1, 'accountId': '', 'tenantCertificationStatus': None, 'tenantId': None, 'tenantName': None, 'tenantScc': None, 'tenantStatus': None, 'trackOrder': None, 'trackOrderName': '', 'trackOrderPhone': '', 'tenantWmsStatus': None, 'userWmsStatus': None, 'wmsExpireDate': None, 'isHasPassword': True, 'appWebFlag': '5', 'userSource': 'tenant', 'token': 'eyJhbGciOiJSUzI1NiJ9.eyJtb2JpbGUiOiIxODE2ODMxMzU2NiIsImFwcFdlYkZsYWciOiI1IiwidGltZXN0YW1wIjoiMTc3ODMwODQyOTIwMiJ9.iT0C4HKN9ZggIy8kXapqQVRpa7k-aYM79Q2jpArU4HR0xMSJu_egGVhg1POP-VGSzH28YsrYJTZ9JAYRKGZ2lYgjqroAEcOedqHZA8NdMuapS2wLWfJNpbyJHTTRf3MhyYgZyh5TKKhnBy_YBkx0YrSDy2fivDjBjYvtJ6B03Ss', 'regId': None}, 'respTime': 1778308429206}
+[32mINFO    [0m api_test:http_client.py:56 [LOGIN] token获取成功
+[32mINFO    [0m api_test:http_client.py:78 [POST] url=https://test.caimuwang.com/api/portal/recommendRegister/buyList
+[32mINFO    [0m api_test:http_client.py:79 [POST] headers={'token': 'eyJhbGciOiJSUzI1NiJ9.eyJtb2JpbGUiOiIxODE2ODMxMzU2NiIsImFwcFdlYkZsYWciOiI1IiwidGltZXN0YW1wIjoiMTc3ODMwODQyOTIwMiJ9.iT0C4HKN9ZggIy8kXapqQVRpa7k-aYM79Q2jpArU4HR0xMSJu_egGVhg1POP-VGSzH28YsrYJTZ9JAYRKGZ2lYgjqroAEcOedqHZA8NdMuapS2wLWfJNpbyJHTTRf3MhyYgZyh5TKKhnBy_YBkx0YrSDy2fivDjBjYvtJ6B03Ss'}
+[32mINFO    [0m api_test:http_client.py:80 [POST] params=None
+[32mINFO    [0m api_test:http_client.py:81 [POST] json={'sysId': 'CB2Q3EWLFCQ92V9B', 'reqData': {'pageNum': -1, 'pageSize': 10, 'search': '测试'}, 'appWebFlag': 5}
+[32mINFO    [0m api_test:http_client.py:82 [POST] data=None
+[32mINFO    [0m api_test:http_client.py:92 [POST] status_code=200
+[32mINFO    [0m api_test:http_client.py:93 [POST] response={"code":600,"msg":"请求参数错误","respTime":1778308429270}

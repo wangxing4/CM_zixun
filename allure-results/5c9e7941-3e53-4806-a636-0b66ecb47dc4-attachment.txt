@@ -1,0 +1,7 @@
+[32mINFO    [0m api_test:http_client.py:78 [POST] url=https://test.caimuwang.com/api/tenantadmin/user/login
+[32mINFO    [0m api_test:http_client.py:79 [POST] headers={}
+[32mINFO    [0m api_test:http_client.py:80 [POST] params=None
+[32mINFO    [0m api_test:http_client.py:81 [POST] json={'sysId': 'CB2Q3EWLFCQ92V9B', 'reqData': {'loginName': '13800001111', 'password': '', 'loginType': 2, 'code': '', 'registerPage': '5'}, 'appWebFlag': '5'}
+[32mINFO    [0m api_test:http_client.py:82 [POST] data=None
+[32mINFO    [0m api_test:http_client.py:92 [POST] status_code=200
+[32mINFO    [0m api_test:http_client.py:93 [POST] response={"code":100105,"msg":"验证码错误","data":null,"respTime":1778308426090}

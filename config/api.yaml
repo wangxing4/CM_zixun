@@ -1,0 +1,6 @@
+# api.yaml,存储url
+login: /tenantadmin/user/login
+search: /portal/recommendRegister/buyList
+unlock: /cloudorder/order/addOrder
+check_user_status: /tenantadmin/user/checkUserStatus
+sms_login: /member/user/smsLogin

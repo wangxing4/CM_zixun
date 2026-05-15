@@ -1,0 +1,22 @@
+- name: 正常登录
+  body:
+    sysId: CB2Q3EWLFCQ92V9B
+    reqData:
+      loginName: 18168313566
+      password: 123456
+      loginType: 1
+    appWebFlag: 5
+  expect:
+    code: 200
+    has_token: true
+
+- name: 密码错误
+  body:
+    sysId: CB2Q3EWLFCQ92V9B
+    reqData:
+      loginName: 18168313566
+      password: 1234567
+      loginType: 1
+    appWebFlag: 5
+  expect:
+    code: 100100

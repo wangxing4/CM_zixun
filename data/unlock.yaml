@@ -1,0 +1,30 @@
+- name: 解锁不存在的订单
+  body:
+    sysId: CB2Q3EWLFCQ92V9B
+    reqData:
+#      openId: ""
+#      deviceId: ""
+#      appId: ""
+#      notifyUrl: "https://test.caimuwang.com/api"
+      serviceName: "不存在的商品"
+      orderModule: "01"
+      orderType: "01"
+      payType: "0"
+      totalAmount: 0
+      payAmount: 0
+      pendingAmount: 0
+      thirdPayType: 22
+      thirdPayment: "weChat"
+      currency: "元"
+      relationId: 999999
+      relationType: "buy"
+      remark: "1"
+      extra:
+        relationId: 999999
+        relationType: "buy"
+        ticketType: "0"
+        useCount: 1
+      attach: '{"id":999999}'
+    appWebFlag: "5"
+  expect:
+    code: 600

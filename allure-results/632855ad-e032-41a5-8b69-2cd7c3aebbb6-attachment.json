@@ -1,0 +1,18 @@
+{
+  "sysId": "CB2Q3EWLFCQ92V9B",
+  "reqData": {
+    "loginName": "13239149186",
+    "password": "",
+    "loginType": 2,
+    "code": "123456",
+    "activityId": null,
+    "activityType": null,
+    "bindSourceAssociationId": null,
+    "bindSourceType": null,
+    "recommendId": null,
+    "registerPage": "5",
+    "relationId": null,
+    "relationType": null
+  },
+  "appWebFlag": "5"
+}

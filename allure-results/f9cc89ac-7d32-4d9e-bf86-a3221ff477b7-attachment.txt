@@ -1,0 +1,7 @@
+2026-05-09 14:33:45,372 | INFO | [POST] url=https://test.caimuwang.com/api/tenantadmin/user/checkUserStatus
+2026-05-09 14:33:45,372 | INFO | [POST] headers={}
+2026-05-09 14:33:45,372 | INFO | [POST] params=None
+2026-05-09 14:33:45,372 | INFO | [POST] json={'sysId': 'CB2Q3EWLFCQ92V9B', 'reqData': {'loginName': '18168313566'}, 'appWebFlag': '5'}
+2026-05-09 14:33:45,373 | INFO | [POST] data=None
+2026-05-09 14:33:45,489 | INFO | [POST] status_code=200
+2026-05-09 14:33:45,490 | INFO | [POST] response={"code":200,"msg":"操作成功","data":"SUCCESS","respTime":1778308425505}

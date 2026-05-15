@@ -1,0 +1,33 @@
+- name: 正常搜索
+  body:
+    sysId: CB2Q3EWLFCQ92V9B
+    reqData:
+      pageNum: 1
+      pageSize: 10
+      search: 测试
+    appWebFlag: 5
+  expect:
+    code: 200
+    has_list: true
+
+- name: 搜索为空
+  body:
+    sysId: CB2Q3EWLFCQ92V9B
+    reqData:
+      pageNum: 1
+      pageSize: 10
+      search: ""
+    appWebFlag: 5
+  expect:
+    code: 200
+
+- name: pageNum异常
+  body:
+    sysId: CB2Q3EWLFCQ92V9B
+    reqData:
+      pageNum: -1
+      pageSize: 10
+      search: 测试
+    appWebFlag: 5
+  expect:
+    code: 600

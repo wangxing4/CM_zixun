@@ -1,0 +1,30 @@
+{
+  "sysId": "CB2Q3EWLFCQ92V9B",
+  "reqData": {
+    "openId": "oTa_P5dkROw9m8lP4ol-WxD6Natg",
+    "deviceId": "17763979615604702830",
+    "appId": "wxa746fd1d5e30d98b",
+    "notifyUrl": "https://test.caimuwang.com/api",
+    "serviceName": "批量上传-木包装箱",
+    "orderModule": "01",
+    "orderType": "01",
+    "payType": "0",
+    "totalAmount": 0,
+    "payAmount": 0,
+    "pendingAmount": 0,
+    "thirdPayType": 22,
+    "thirdPayment": "weChat",
+    "currency": "元",
+    "relationId": 71767,
+    "relationType": "buy",
+    "remark": "1",
+    "extra": {
+      "relationId": 71767,
+      "relationType": "buy",
+      "ticketType": "0",
+      "useCount": 1
+    },
+    "attach": "{\"id\":71767}"
+  },
+  "appWebFlag": "5"
+}

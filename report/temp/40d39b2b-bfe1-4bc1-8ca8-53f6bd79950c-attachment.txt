@@ -1,0 +1,13 @@
+[32mINFO    [0m api_test:http_client.py:70 [REQUEST] token不存在，先登录
+[32mINFO    [0m api_test:http_client.py:36 [LOGIN] url=https://test.caimuwang.com/api/tenantadmin/user/login
+[32mINFO    [0m api_test:http_client.py:37 [LOGIN] payload={'sysId': 'CB2Q3EWLFCQ92V9B', 'reqData': {'loginName': '18168313566', 'password': '123456', 'loginType': 1}, 'appWebFlag': '5'}
+[32mINFO    [0m api_test:http_client.py:48 [LOGIN] status_code=200
+[32mINFO    [0m api_test:http_client.py:49 [LOGIN] response={'code': 200, 'msg': '操作成功', 'data': {'loginName': '18168313566', 'mobile': '18168313566', 'tenantCode': '', 'tenantDbCode': None, 'userId': 4341, 'userHost': '58.214.37.42', 'deviceId': None, 'deptId': '', 'deptName': None, 'roleId': None, 'roleName': None, 'leader': None, 'userName': '运营账号3566', 'nickName': None, 'userType': None, 'userStatus': '1', 'mobileStatus': 1, 'accountId': '', 'tenantCertificationStatus': None, 'tenantId': None, 'tenantName': None, 'tenantScc': None, 'tenantStatus': None, 'trackOrder': None, 'trackOrderName': '', 'trackOrderPhone': '', 'tenantWmsStatus': None, 'userWmsStatus': None, 'wmsExpireDate': None, 'isHasPassword': True, 'appWebFlag': '5', 'userSource': 'tenant', 'token': 'eyJhbGciOiJSUzI1NiJ9.eyJtb2JpbGUiOiIxODE2ODMxMzU2NiIsImFwcFdlYkZsYWciOiI1IiwidGltZXN0YW1wIjoiMTc3NzAwMzExNTQzNCJ9.JlDALtuguO-qMMiG8rJoa_h97YAedk2RPSgjAHxsnw2jwV3yUm9S_lDXJmPBPNKHCTZgKLAU4TXMFrCy-Zy_Q6ANzVrRJeAEciOe-LrfZO1gFKARwfiCbMC_U5IBSTMqGoJ6784k4Jv_4iYkDwNQSnCdFv5IJU1HUDLjqaiwoww', 'regId': None}, 'respTime': 1777003115436}
+[32mINFO    [0m api_test:http_client.py:57 [LOGIN] token获取成功
+[32mINFO    [0m api_test:http_client.py:82 [POST] url=https://test.caimuwang.com/api/tenantadmin/user/login
+[32mINFO    [0m api_test:http_client.py:83 [POST] headers={'token': 'eyJhbGciOiJSUzI1NiJ9.eyJtb2JpbGUiOiIxODE2ODMxMzU2NiIsImFwcFdlYkZsYWciOiI1IiwidGltZXN0YW1wIjoiMTc3NzAwMzExNTQzNCJ9.JlDALtuguO-qMMiG8rJoa_h97YAedk2RPSgjAHxsnw2jwV3yUm9S_lDXJmPBPNKHCTZgKLAU4TXMFrCy-Zy_Q6ANzVrRJeAEciOe-LrfZO1gFKARwfiCbMC_U5IBSTMqGoJ6784k4Jv_4iYkDwNQSnCdFv5IJU1HUDLjqaiwoww'}
+[32mINFO    [0m api_test:http_client.py:84 [POST] params=None
+[32mINFO    [0m api_test:http_client.py:85 [POST] json={'sysId': 'CB2Q3EWLFCQ92V9B', 'reqData': {'loginName': 18168313566, 'password': 1234567, 'loginType': 1}, 'appWebFlag': 5}
+[32mINFO    [0m api_test:http_client.py:86 [POST] data=None
+[32mINFO    [0m api_test:http_client.py:97 [POST] status_code=200
+[32mINFO    [0m api_test:http_client.py:98 [POST] response={"code":100100,"msg":"用户名或密码错误","data":null,"respTime":1777003115543}

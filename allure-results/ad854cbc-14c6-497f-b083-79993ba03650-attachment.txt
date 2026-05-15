@@ -1,0 +1,7 @@
+2026-05-09 14:33:47,828 | INFO | [POST] url=https://test.caimuwang.com/api/tenantadmin/user/login
+2026-05-09 14:33:47,828 | INFO | [POST] headers={}
+2026-05-09 14:33:47,828 | INFO | [POST] params=None
+2026-05-09 14:33:47,828 | INFO | [POST] json={'sysId': 'CB2Q3EWLFCQ92V9B', 'reqData': {'loginName': 18168313566, 'password': 123456, 'loginType': 1}, 'appWebFlag': 5}
+2026-05-09 14:33:47,828 | INFO | [POST] data=None
+2026-05-09 14:33:48,039 | INFO | [POST] status_code=200
+2026-05-09 14:33:48,040 | INFO | [POST] response={"code":200,"msg":"操作成功","data":{"loginName":"18168313566","mobile":"18168313566","tenantCode":"","tenantDbCode":null,"userId":4341,"userHost":"58.214.37.42","deviceId":null,"deptId":"","deptName":null,"roleId":null,"roleName":null,"leader":null,"userName":"运营账号3566","nickName":null,"userType":null,"userStatus":"1","mobileStatus":1,"accountId":"","tenantCertificationStatus":null,"tenantId":null,"tenantName":null,"tenantScc":null,"tenantStatus":null,"trackOrder":null,"trackOrderName":"","trackOrd
