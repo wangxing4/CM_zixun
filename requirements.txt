@@ -1,0 +1,4 @@
+requests==2.33.1
+PyYAML==6.0.3
+pytest==9.0.3
+allure-pytest==2.15.3

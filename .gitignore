@@ -3,3 +3,7 @@
 
 # JetBrains IDE
 .idea/
+
+# Allure test artifacts
+allure-results/
+allure_results/

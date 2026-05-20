@@ -1,7 +1,0 @@
-2026-05-09 14:33:45,892 | INFO | [POST] url=https://test.caimuwang.com/api/tenantadmin/user/login
-2026-05-09 14:33:45,892 | INFO | [POST] headers={}
-2026-05-09 14:33:45,892 | INFO | [POST] params=None
-2026-05-09 14:33:45,892 | INFO | [POST] json={'sysId': 'CB2Q3EWLFCQ92V9B', 'reqData': {'loginName': '13800001111', 'password': '', 'loginType': 2, 'code': '', 'registerPage': '5'}, 'appWebFlag': '5'}
-2026-05-09 14:33:45,892 | INFO | [POST] data=None
-2026-05-09 14:33:46,075 | INFO | [POST] status_code=200
-2026-05-09 14:33:46,075 | INFO | [POST] response={"code":100105,"msg":"验证码错误","data":null,"respTime":1778308426090}
