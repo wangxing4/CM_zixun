@@ -7,3 +7,12 @@
 # Allure test artifacts
 allure-results/
 allure_results/
+
+# Logs
+logs/
+*.log
+
+# Python cache
+__pycache__/
+**/__pycache__/
+*.pyc
