@@ -4,15 +4,19 @@
 # JetBrains IDE
 .idea/
 
+# Python
+__pycache__/
+**/__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+
 # Allure test artifacts
 allure-results/
+allure-report/
 allure_results/
+report/temp/
 
 # Logs
 logs/
 *.log
-
-# Python cache
-__pycache__/
-**/__pycache__/
-*.pyc
